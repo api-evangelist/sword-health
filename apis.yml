@@ -1,8 +1,27 @@
 aid: sword-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sword-health.png
 name: Sword Health
-description: 'Sword Health is a company surfaced as a portfolio company of founders-fund, sapphire-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthtech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Sword Health is a digital musculoskeletal (MSK) and virtual physical-therapy
+  company that pairs licensed clinicians with an AI Care platform (programs including
+  Thrive for MSK, Bloom for pelvic and women''s health, Move, and Mind for mental health,
+  with the Phoenix AI care specialist and the Sword Intelligence division). Founded
+  in Portugal in 2015, it sells to employers, health plans, and governments rather
+  than to individual developers. As of this enrichment pass Sword Health publishes
+  no public developer API, developer portal, SDKs, or API documentation; its digital
+  surface is member/clinician apps and employer client portals. Real public surfaces
+  captured here are its trust center (SOC 2, HIPAA, GDPR), legal pages, newsroom, and
+  domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/sword-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthtech
+- Musculoskeletal
+- Physical Therapy
+- Digital Health
+- Telehealth
+- Artificial Intelligence
+- Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://swordhealth.com
+- type: GitHubOrganization
+  url: https://github.com/SWORDHealth
+- type: Blog
+  url: https://swordhealth.com/newsroom
+- type: Support
+  url: https://swordhealth.com/faq
+- type: TermsOfService
+  url: https://swordhealth.com/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://swordhealth.com/legal/privacy-statement
+- type: Login
+  url: https://client-portal.us.swordhealth.com/
+- type: TrustCenter
+  url: security/sword-health-trust-center.yml
+- type: Compliance
+  url: https://trust.swordhealth.com/
+- type: DomainSecurity
+  url: security/sword-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
